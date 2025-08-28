@@ -1,0 +1,13 @@
+{
+  "name": "myleave-project",
+  "version": "1.0.0",
+  "private": true,
+ "scripts": {
+  "dev": "concurrently \"npm run dev --prefix frontend/frontend\" \"npm start --prefix backend\""
+
+},
+
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

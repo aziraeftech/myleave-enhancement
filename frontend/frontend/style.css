@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Use a modern font from Google Fonts */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom gradient for the login button */
+.btn-gradient {
+    background-image: linear-gradient(to right, #33c7b3, #29af9d);
+}
+
+/* Style for the subtle waves/rings background, matching the image */
+.wavy-background {
+    background-image: radial-gradient(circle at 10% 20%, rgba(90, 200, 250, 0.4) 0%, rgba(100, 250, 200, 0.4) 100%),
+                      radial-gradient(circle at 90% 80%, rgba(90, 200, 250, 0.4) 0%, rgba(100, 250, 200, 0.4) 100%),
+                      linear-gradient(to bottom, #2dd4bf, #0e7490);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.submission {
+  background-color: #29af9d;
+  color: white;
+  border: none;
+  padding:  12px 28px;
+  border-radius: 26px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.03);
+}
+
+.submission:hover {
+  background-color: #249e92; /* darker shade when hover */
+}
+
+.submission:hover {
+  background-color: #249e92;   /* darker shade when hover */
+}
+  .slider {
+    width: 500px;   /* adjust to your layout */
+    height: 500px;  /* adjust */
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slider-track {
+    display: flex;
+    width: max-content;
+    transition: transform 1s ease-in-out;
+  }
+
+  .slider-track img {
+    width: 500px;   /* must match .slider width */
+    height: 500px;  /* must match .slider height */
+    object-fit: cover;
+  }
